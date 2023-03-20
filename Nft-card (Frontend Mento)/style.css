@@ -99,6 +99,11 @@ img {
     justify-content: space-between;
 }
 
+.creador span:hover, h1:hover {
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
 .creador img {
     height: 3.5rem;
     border: 1px solid var(--White);
