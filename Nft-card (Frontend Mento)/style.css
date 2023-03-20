@@ -1,0 +1,149 @@
+:root {
+    /* Colores primarios */
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    /* Colores neutrales */
+    --Very-dark-blue: hsl(217, 54%, 11%); /* Main BG */
+    --dark-blue: hsl(216, 50%, 16%); /* Card BG */
+    --blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+    /* Fuente */
+    --fuente: font-family: 'Outfit', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--Very-dark-blue);
+    font-size: 16px; /* 1rem = 10 px */
+    font-family: var(--fuente);
+    line-height: 1.4
+}
+
+/* GLOBALES */
+
+h1 {
+    color: var(--White);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+p {
+    color: var(--Soft-blue);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+/* DISEÑO DE LA TARJETA NFT */
+.card {
+    background-color: var(--dark-blue);
+    border-radius: 1.5rem;
+}
+
+.card__imagen {
+    padding: 2rem;
+}
+
+.card__contenido {
+    padding: 0 2rem 2rem;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconos__diseño span {
+    color: var(--Cyan);
+    font-weight: 700;
+}
+
+.iconos__diseño2 span {
+    color: var(--Soft-blue);
+}
+
+.separacion {
+    border: 1px solid var(--blue);
+    margin: 2rem 0;
+}
+
+.creador {
+    display: flex;
+    justify-content: space-between;
+}
+
+.creador img {
+    height: 3.5rem;
+    border: 1px solid var(--White);
+    border-radius: 2rem;
+}
+
+.creador p {
+    flex: 0 0 calc(90% - 2rem);
+
+}
+
+.creador span {
+    color: var(--White);
+}
+
+/* Renderizado para dispositivo celular */
+@media (min-width: 375px) {    
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+}
+
+/* Renderizado para dispostivo de escritorio */
+@media (min-width: 1440px) {
+    .contenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 35rem;
+    }
+}
+
+/* Footer */ 
+.attribution { 
+    margin: 5rem 0;
+    font-size: 11px; 
+    text-align: center;
+    color: var(--White);
+}
+
+.attribution a { 
+    color: var(--Cyan); 
+}
