@@ -1,0 +1,296 @@
+:root {
+    /* Color primario */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    /* Color neutral */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+
+    /* Fuente */
+    --fuente: 'Bai Jamjuree', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: var(--fuente);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+    line-height: 1.5;
+}
+
+/* Globales */
+h1, h2, h3, h4, a {
+    color: var(--Dark-Grayish-Blue);
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
+    color: var(--Grayish-Blue);
+}
+
+a {
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Utilidades */
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+/* Clase para poder centrar los textos */
+.center {
+    text-align: center;
+}
+
+/* Realiza la separacion entre el texto y otro contenedor */
+.seccion__contenido {
+    padding-bottom: 6rem;
+}
+
+/* Se dividen las secciones por medio de un padding */
+.seccion__separacion{
+    margin: 8rem 0;
+}
+
+.contenedor {
+    max-width: 140rem;
+    width: 95%;
+    margin: 10rem auto;
+}
+
+/* Global para los botones */
+.botones {
+    display: flex;
+}
+
+@media (min-width: 375px) {
+    .botones {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1440px) {
+    .botones {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.botones__iOS, 
+.botones__mac {
+    background-color: var(--Strong-Cyan);
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    padding: 1.5rem 2.5rem;
+    margin: 1rem;
+}
+
+.botones__mac {
+    background-color: var(--Light-Blue);
+}
+
+.botones__iOS, 
+.botones__mac,
+.barra__sociales--enlace:hover{ 
+    cursor: pointer;
+}
+
+.botones__iOS:hover{
+    box-shadow: 17px 36px 40px -16px hsla(171, 66%, 44%, 0.85);
+}
+
+.botones__mac:hover {
+    box-shadow: 17px 36px 40px -16px hsla(233, 100%, 69%, 0.85);
+}
+
+/* CSS para el Header */
+.header__fondo{
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 375px) {
+    .header__fondo{
+        background-image: url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.header__logo {
+    padding: 12rem 0 6rem;
+}
+
+.header__contenido {
+    margin-bottom: 6rem;
+}
+
+
+/* CSS para la section-2 */
+.section-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 375px) {
+    .section-2 {
+        flex-direction: column;
+    }
+
+    .columnas {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    .section-2{
+        flex-direction: row;
+    }
+
+    .columnas {
+        text-align: start;
+    }
+}
+
+.columnas {
+    flex: 0 0 calc(40% - 2rem);
+}
+
+/* CSS para la section-4 */
+.iconos {
+    display: grid;
+}
+
+@media (min-width: 375px) {
+    .iconos{
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 2rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .iconos {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: none;
+        column-gap: 2rem;
+    }
+}
+
+/* CSS para la section-5 */
+.imagenes {
+    display: grid;
+}
+
+@media (min-width: 375px) {
+    .imagenes {
+        grid-template-rows: repeat(5, 1fr);
+        row-gap: 5rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .imagenes {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: none;
+        column-gap: 2rem;
+    }
+}
+
+/* CSS para el footer */
+.footer {
+    background-color: var(--Grayish-Blue);
+    padding: 5rem;
+}
+
+.barra, 
+.barra__sociales{
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra__contenido{
+    display: grid;
+}
+
+.barra__logo, 
+.barra__contenido, 
+.barra__sociales {
+    padding: 2rem;
+}
+
+@media (min-width: 375px){
+    .barra {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .barra__contenido{
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 3rem;
+    }
+
+    .barra__sociales{
+        flex: 0 0 calc(20% - 1rem);
+    }
+}
+
+@media (min-width: 1440px) {
+    .barra{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .barra__contenido{
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 3rem;
+    }
+}
+
+.barra__contenido--enlace:hover {
+    color: var(--Strong-Cyan);
+}
+
+.attribution { 
+    font-size: 11px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution p {
+    color: white;
+}
