@@ -1,0 +1,364 @@
+:root {
+    --Dark-Blue-intro: hsl(217, 28%, 15%);
+    --Dark-Blue-main: hsl(218, 28%, 13%);
+    --Dark-Blue-footer: hsl(216, 53%, 9%);
+    --Dark-Blue-testimonials: hsl(219, 30%, 18%);
+    --Cyan: hsl(176, 68%, 64%);
+    --Blue: hsl(198, 60%, 50%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --White: hsl(0, 0%, 100%);
+    /* FONT HEADING*/
+    --Fheading: 'Raleway', sans-serif;
+    /* FONT BODY */
+    --Fbody: 'Open Sans', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+    font-family: var(--Fbody);
+    color: var(--White);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* GLOBALES */
+h1, h2, h3, a {
+    font-family: var(--Fheading);
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: var(--White);
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    border: none;
+    border-radius: 3rem;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--White);
+    background-color: var(--Blue);
+    width: 25rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--Cyan);
+    color: var(--Dark-Blue-testimonials);
+}
+
+.inputBtn {
+    border: none;
+    border-radius: 3rem;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.errorEmail {
+    color: var(--Light-Red);
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* HEADER */
+header {
+    background-color: var(--Dark-Blue-intro);
+    background-image: url(/images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.navegacion__logo {
+    width: 25%;
+    height: auto;
+}
+
+.navegacion__enlace {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navegacion__enlace a:hover {
+    text-decoration: underline;
+    color: var(--Cyan);
+    font-weight: 700;
+}
+
+/* HEADER - INTRO */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.intro__contenido {
+    margin: 2rem 0 12rem;
+    width: 100%;
+}
+
+@media (min-width: 786px) {
+    header {
+        background-image: url(/images/bg-curvy-desktop.svg);
+        background-position-y: bottom;
+        background-size: contain;
+    }
+    .navegacion__enlace {
+        gap: 5rem;
+    }
+    .intro__contenido {
+        width: 35%;
+    }
+}
+
+/* MAIN -- SECCION-1*/
+main {
+    background-color: var(--Dark-Blue-main);
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+
+@media (min-width: 786px) {
+    .tarjetas__info {
+        flex-basis: calc(35% - 4rem);
+    }
+}
+
+/* SECCION-2 */
+.productive {
+    margin: 15rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 786px) {
+    .productive {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .productive__info {
+        flex: 0 0 calc(55% - 1rem);
+    }
+}
+
+.productive__flecha {
+    border-bottom: 2px solid var(--Cyan);
+    width: 23rem;
+    cursor: pointer;
+}
+
+.productive__flecha p {
+    color: var(--Cyan);
+    margin: 0;
+}
+
+.productive__flecha img {
+    width: 4rem;
+}
+
+/* SECCION-3 */
+.comillas{
+    transform: translateY(1.5rem);
+}
+
+.testimonios {
+    display: grid;
+    grid-auto-flow: row;
+    row-gap: 4rem;
+}
+
+@media (min-width: 1200px) {
+    .testimonios {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 4rem;
+    }
+}
+
+.testimonios__tarjeta {
+    background-color: var(--Dark-Blue-testimonials);
+    border-radius: 1rem;
+}
+
+.testimonios__contenido {
+    padding:  2rem 4rem;
+}
+
+.testimonios__usuario {
+    display: flex;
+    align-items: center;
+}
+
+.testimonios__imagen {
+    width: 6rem;
+    padding-right: 1rem;
+}
+
+.testimonios__imagen img {
+    border-radius: 50%;
+}
+
+.testimonios__info h3,
+.testimonios__info p {
+    margin: 0;
+}
+
+.testimonios__info p {
+    font-size: 1.5rem;
+}
+
+.flotador,
+.testimonios__tarjeta {
+    box-shadow: 10px 4px 12px 1px hsl(220, 31%, 23%);
+}
+
+/* SECCION-4 */
+.seccion-4 {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.flotador {
+    background-color: var(--Dark-Blue-intro);
+    text-align: center;
+    border-radius: 1rem;
+    width: 100%;
+    transform: translateY(25%);
+}
+
+.flotador__contenido {
+    padding: 3rem 4rem;
+}
+
+@media (min-width: 768px) {
+    .seccion-4 {
+        margin-top: 12rem;
+    }
+    .flotador {
+        width: 65%;
+    }
+    .inputBtn {
+        width: 50%;
+    }
+}
+
+/*  FOOTER  */
+footer {
+    background-color: var(--Dark-Blue-footer);
+    padding: 15rem 0 10rem;
+}
+
+.referencia {
+    margin-top: 6rem;
+}
+
+.referencia__contenido {
+    display: flex;
+    flex-direction: column;
+}
+
+.referencia__ubicacion {
+    flex: 0 0 calc(25% - 1rem);
+} 
+
+.referencia__enlaces {
+    display: grid;
+}
+
+.referencia__enlaces a:hover {
+    font-weight: 700;
+    color: var(--White);
+}
+
+.referencia__sociales {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.sociales__icono {
+    width: 3rem;
+    cursor: pointer;
+} 
+
+.sociales__icono:hover {
+    box-shadow: 3px 4px 20px 0px var(--Cyan);
+}
+
+@media(min-width: 768px) {
+    .referencia {
+        margin-top: 2rem;
+    }
+    .referencia__contenido {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .referencia__enlaces {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 8rem;
+        row-gap: 1rem;
+    }
+}
+
+
+
+
+.attribution { 
+    text-align: center;
+    color: var(--Cyan);
+}
+
+.attribution a { 
+    color: var(--White); 
+    text-decoration: underline;
+}
