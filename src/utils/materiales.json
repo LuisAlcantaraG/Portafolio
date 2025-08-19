@@ -1,0 +1,311 @@
+{
+    "bodega": [
+        {
+            "nombre": "ACIDO BENZOICO"
+        },
+        {
+            "nombre": "ACIDO ESTIARICO VSTEARIN SA29"
+        },
+        {
+            "nombre": "ALTIGRAM 70 XP"
+        },
+        {
+            "nombre": "AZUFRE POLVO (VULCATRON MALLA 325)"
+        },
+        {
+            "nombre": "B.H.T. (VULCANOX) (ANTIOXIDANTE)"
+        },
+        {
+            "nombre": "BIOXIDO DE TITANIO (R-103)"
+        },
+        {
+            "nombre": "CAOLIN HARD CLAY (SECO)"
+        },
+        {
+            "nombre": "CAOLIN SILAL 300P"
+        },
+        {
+            "nombre": "CARBONATO CALCIO PRECIPITADO EL NEVADO"
+        },
+        {
+            "nombre": "CEMENTO GRIS (CRUZ AZUL)"
+        },
+        {
+            "nombre": "CLOROSULFONADO CHINO (CSM-40)"
+        },
+        {
+            "nombre": "CLOROSULFONADO(TOSO)"
+        },
+        {
+            "nombre": "DELAC NS (ACELERANTE WILLING TBBS)"
+        },
+        {
+            "nombre": "ELASTOSIL 701-40"
+        },
+        {
+            "nombre": "ELASTOSIL 701-80"
+        },
+        {
+            "nombre": "HULE NATURAL RSS1"
+        },
+        {
+            "nombre": "H.V.A. 2 (COAGENTE VULCANIZANTE)"
+        },
+        {
+            "nombre": "INOX POLVO"
+        },
+        {
+            "nombre": "LITARAGIRIO AMARILLO"
+        },
+        {
+            "nombre": "MBTS 75 NASIKA"
+        },
+        {
+            "nombre": "MICROCELERER G (ESPONJANTE)"
+        },
+        {
+            "nombre": "MINUSIL-5"
+        },
+        {
+            "nombre": "NEGRO DE HUMO CONTINEX 330 (HAF)"
+        },
+        {
+            "nombre": "NEGRO DE HUMO CONTINEX 550 (FEF)"
+        },
+        {
+            "nombre": "NEGRO DE HUMO CONTINEX 660 (GPF)"
+        },
+        {
+            "nombre": "NEGRO DE HUMO THERMAX 990"
+        },
+        {
+            "nombre": "NEOPRENO GNA M1"
+        },
+        {
+            "nombre": "OXIDO DE MAGNESIO ELASTOMAG"
+        },
+        {
+            "nombre": "OXIDO DE ZINC OXZINAL 802 SELLO ORO FRANCES"
+        },
+        {
+            "nombre": "PARACRIL 3335"
+        },
+        {
+            "nombre": "PARACRIL BJLT-M50"
+        },
+        {
+            "nombre": "PARACRIL OZZO"
+        },
+        {
+            "nombre": "PERKADOX (PEROXIDO DE DICUMILO 99%)"
+        },
+        {
+            "nombre": "PIGMENTO AMARILLO"
+        },
+        {
+            "nombre": "PIGMENTO AZUL PV 44R"
+        },
+        {
+            "nombre": "PIGMENTO ROJO (MASTER RED-SILICON)"
+        },
+        {
+            "nombre": "PIGMENTO ROJO (WATCHUNG 280 BRT 430)"
+        },
+        {
+            "nombre": "PIGMENTO VERDE"
+        },
+        {
+            "nombre": "RESINA NORSELENE (A 90)"
+        },
+        {
+            "nombre": "RHENEOPREND ZD (FACTICIO CAFÉ)"
+        },
+        {
+            "nombre": "ROYALENE 511"
+        },
+        {
+            "nombre": "ROYALENE 563"
+        },
+        {
+            "nombre": "ROYALENE 645"
+        },
+        {
+            "nombre": "ROYALENE 674"
+        },
+        {
+            "nombre": "SBR 1502 (HULE SINTETICO)"
+        },
+        {
+            "nombre": "SILICE PRESIPITADA ULTRASILV VN3 GRANULADO"
+        },
+        {
+            "nombre": "SILICE PRESIPITADA ULTRASILV VN3 POLVO"
+        },
+        {
+            "nombre": "SRB CONCHITAS (SUSTITUYE AL HUMEX 260)"
+        },
+        {
+            "nombre": "STRUKTOL (EP 52-55)"
+        },
+        {
+            "nombre": "STRUKTOL (WB-16)"
+        },
+        {
+            "nombre": "T.E.T. GRANO (VULMIC)"
+        },
+        {
+            "nombre": "TALCO MISTRON VAPOR 353"
+        },
+        {
+            "nombre": "TETRA SACO (VULMIC)"
+        },
+        {
+            "nombre": "THIATE H ETU- 80 MIXLAND"
+        },
+        {
+            "nombre": "TQP/ TMQ"
+        },
+        {
+            "nombre": "VISTALON 3666"
+        },
+        {
+            "nombre": "VULMIC MS"
+        },
+        {
+            "nombre": "ZDB"
+        }
+    ],
+    "solventes": [
+        {
+            "nombre": "ACEITE AROMATICO (IEQ 344)"
+        },
+        {
+            "nombre": "ACEITE DIOCTIL FTALATO DOP"
+        },
+        {
+            "nombre": "ACEITE NAFTENICO (IEQ 301)"
+        },
+        {
+            "nombre": "ACEITE PARAFINICO (IEQ 324)"
+        },
+        {
+            "nombre": "CERACLOR"
+        },
+        {
+            "nombre": "DIETIN GLICOL"
+        },
+        {
+            "nombre": "GAS NAFTA"
+        },
+        {
+            "nombre": "INOX LIQUIDO"
+        },
+        {
+            "nombre": "MEK (METIL ETIL CETONA)"
+        },
+        {
+            "nombre": "RESINA CUMARONA (P25 O R29)"
+        },
+        {
+            "nombre": "TOLUENO"
+        },
+        {
+            "nombre": "POLIESTAT 2000"
+        },
+        {
+            "nombre": "SILANO Si 69"
+        },
+        {
+            "nombre": "SR 350 COAGENTE"
+        }
+    ],
+    "poliuretano": [
+        {
+            "nombre": "ADIPRENE LF 1800 A (RESINA POLIURETANO)"
+        },
+        {
+            "nombre": "ADIPRENE LF 1900 A"
+        },
+        {
+            "nombre": "BULLTON  HYCURE"
+        },
+        {
+            "nombre": "BULLTON 110 VERDE"
+        },
+        {
+            "nombre": "BULLTON 2013"
+        },
+        {
+            "nombre": "BULLTON 2028"
+        },
+        {
+            "nombre": "BULLTON 2085"
+        },
+        {
+            "nombre": "BULLTON 3736"
+        },
+        {
+            "nombre": "BULLTON HC 110 NAT"
+        },
+        {
+            "nombre": "BULLTON HC 111"
+        },
+        {
+            "nombre": "CHEMOLK 205 (GRIS)"
+        },
+        {
+            "nombre": "CHEMOLK 213 (AZUL)"
+        },
+        {
+            "nombre": "CHEMOLK 234"
+        },
+        {
+            "nombre": "CILBOND 12 E (GRIS)"
+        },
+        {
+            "nombre": "CILBOND 80 ET (NEGRO)"
+        },
+        {
+            "nombre": "DARTEK (MAYLAR) (RODILLOS SILICON)"
+        },
+        {
+            "nombre": "DESMOLADNTE AC-4368"
+        },
+        {
+            "nombre": "DISPERSION AMARILLA"
+        },
+        {
+            "nombre": "DISPERSION BLANCA"
+        },
+        {
+            "nombre": "DISPERSION NARANJA"
+        },
+        {
+            "nombre": "DISPERSION NEGRA"
+        },
+        {
+            "nombre": "DISPERSION ROJO"
+        },
+        {
+            "nombre": "DISPERSION VERDE"
+        },
+        {
+            "nombre": "ETHACURE 300"
+        },
+        {
+            "nombre": "MODIFICADOR TEMPERATURA HT1"
+        },
+        {
+            "nombre": "THIXON 304"
+        },
+        {
+            "nombre": "VIBRATHANE B-600"
+        },
+        {
+            "nombre": "VIBRATHANE B-601"
+        },
+        {
+            "nombre": "VIBRATHANE B-602"
+        }
+    ]
+}
