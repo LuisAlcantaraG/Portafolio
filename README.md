@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React
 
 A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
@@ -105,3 +106,4 @@ npm run build
 - Styled with Tailwind CSS
 
 Built with ❤️ on Rocket.new
+# InventarioHyrsa
